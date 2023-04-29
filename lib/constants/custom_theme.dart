@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart' show Color, TextStyle, FontWeight;
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:sizer/sizer.dart';
 
 class CustomTheme {
   static Color textColor = const Color(0xFFAFB6BE);

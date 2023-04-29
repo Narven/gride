@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gride/constants/custom_theme.dart';
 import 'package:gride/constants/enums.dart';
 import 'package:gride/features/blueprint_code/widgets/node_editor2.dart';
@@ -11,6 +10,7 @@ import 'package:gride/features/blueprint_code/widgets/toolbar.dart';
 import 'package:gride/models/blueprint_node_input_model.dart';
 import 'package:gride/models/blueprint_node_model.dart';
 import 'package:gride/models/blueprint_node_output_model.dart';
+import 'package:sizer/sizer.dart';
 
 class BlueprintEditorScreen extends ConsumerStatefulWidget {
   const BlueprintEditorScreen({super.key});

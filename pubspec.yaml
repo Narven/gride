@@ -15,9 +15,8 @@ dependencies:
   pluto_code_editor: ^0.1.1
   flutter_riverpod: ^2.3.2
   google_fonts: ^4.0.3
-  responsive_framework: ^1.0.0
   sizer: ^2.0.15
-  flutter_screenutil: ^5.7.0
+  window_manager: ^0.3.2
 
 dev_dependencies:
   flutter_test:
