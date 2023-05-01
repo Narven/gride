@@ -33,7 +33,7 @@ class Panel extends StatelessWidget {
         textAlign: TextAlign.left,
         maxLines: 1,
         style: CustomTheme.appDefaultTextStyle.copyWith(
-          fontSize: 2.sp,
+          fontSize: 3.sp,
           fontWeight: FontWeight.w600,
         ),
       ),

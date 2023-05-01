@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "io.gride.gride" "\0"
-            VALUE "FileDescription", "gride" "\0"
+            VALUE "FileDescription", "Gride" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "gride" "\0"
+            VALUE "InternalName", "Gride" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 io.gride.gride. All rights reserved." "\0"
             VALUE "OriginalFilename", "gride.exe" "\0"
-            VALUE "ProductName", "gride" "\0"
+            VALUE "ProductName", "Gride" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

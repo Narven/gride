@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gride/constants/custom_theme.dart';
+import 'package:gride/features/auth/presentation/signin_screen.dart';
 import 'package:gride/features/blueprint_code/presentation/blueprint_editor_screen.dart';
 import 'package:sizer/sizer.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
             fontFamily: CustomTheme.appDefaultTextStyle.fontFamily,
             primaryColor: CustomTheme.textColor,
           ),
-          home: const BlueprintEditorScreen(),
+          home: const SignInScreen(), // BlueprintEditorScreen(),
         );
       },
     );

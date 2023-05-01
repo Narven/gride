@@ -12,7 +12,17 @@ class NodeEditor2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return Container(
+      decoration: const BoxDecoration(
+        image: DecorationImage(
+          image: AssetImage('assets/images/grid.png'),
+          repeat: ImageRepeat.repeat,
+          // invertColors: true,
+          // scale: 4,
+          // opacity: 0.1,
+          colorFilter: ColorFilter.mode(Colors.red, BlendMode.dstATop),
+        ),
+      ),
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height,
       child: Stack(

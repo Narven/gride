@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.gride.gride.gride">
    <application
-        android:label="gride"
+        android:label="Gride"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
