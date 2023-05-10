@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:gride/common/custom_password_field.dart';
 import 'package:gride/common/custom_text_field.dart';
@@ -81,7 +82,9 @@ class _SignInScreenState extends State<SignInScreen> {
                             backgroundColor: CustomTheme.secondaryColor,
                             elevation: 5,
                           ),
-                          onPressed: () {},
+                          onPressed: () {
+                            context.go('/projects/project1');
+                          },
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Text(

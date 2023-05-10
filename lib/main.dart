@@ -11,7 +11,7 @@ Future<void> main() async {
     await windowManager.ensureInitialized();
 
     const windowOptions = WindowOptions(
-      size: Size(1600, 900),
+      size: Size(1600, 1024),
       center: true,
     );
 
