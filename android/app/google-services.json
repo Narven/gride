@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "899141272370",
+    "project_id": "gride-af97e",
+    "storage_bucket": "gride-af97e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899141272370:android:fae04ee0b9284760164d2b",
+        "android_client_info": {
+          "package_name": "io.gride.gride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899141272370-0ug6rq8ukt6s94jpprta41rudvkreeu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN_B__cK3e4ixKmmoOnC4nkxSynS0eXG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899141272370-0ug6rq8ukt6s94jpprta41rudvkreeu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

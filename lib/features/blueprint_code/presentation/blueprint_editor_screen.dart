@@ -82,8 +82,8 @@ class _BlueprintCodeScreenState extends ConsumerState<BlueprintEditorScreen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         // Left column
-                        Column(
-                          children: const [
+                        const Column(
+                          children: [
                             ResourceExplorer(),
                             Panel(title: 'Changed Resources'),
                           ],
@@ -129,8 +129,8 @@ class _BlueprintCodeScreenState extends ConsumerState<BlueprintEditorScreen> {
                             ),
                           ),
                         ),
-                        Column(
-                          children: const [
+                        const Column(
+                          children: [
                             PropertiesExplorer(),
                             Panel(title: 'Outline'),
                           ],

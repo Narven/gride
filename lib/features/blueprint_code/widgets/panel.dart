@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:gride/constants/custom_theme.dart';
 import 'package:gride/features/blueprint_code/widgets/panel_action_button.dart';
@@ -30,10 +31,11 @@ class Panel extends StatelessWidget {
       SizedBox(width: 1.w),
       Text(
         title?.toUpperCase() ?? 'PANEL',
+        overflow: TextOverflow.ellipsis,
         textAlign: TextAlign.left,
         maxLines: 1,
         style: CustomTheme.appDefaultTextStyle.copyWith(
-          fontSize: 3.sp,
+          fontSize: kIsWeb ? 1.8.sp : 3.sp,
           fontWeight: FontWeight.w600,
         ),
       ),

@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:gride/constants/custom_theme.dart';
 import 'package:sizer/sizer.dart';
@@ -30,8 +31,12 @@ class _TableCellInputTextState extends State<TableCellInputText> {
         decoration: InputDecoration(
           alignLabelWithHint: true,
           isDense: true,
-          labelStyle: CustomTheme.appDefaultTextStyle.copyWith(fontSize: 1.sp),
-          hintStyle: CustomTheme.appDefaultTextStyle.copyWith(fontSize: 1.sp),
+          labelStyle: CustomTheme.appDefaultTextStyle.copyWith(
+            fontSize: kIsWeb ? 3.sp : 4.sp,
+          ),
+          hintStyle: CustomTheme.appDefaultTextStyle.copyWith(
+            fontSize: kIsWeb ? 3.sp : 4.sp,
+          ),
           contentPadding: EdgeInsets.only(
             top: 0,
             bottom: 0,
@@ -55,7 +60,7 @@ class _TableCellInputTextState extends State<TableCellInputText> {
           border: const OutlineInputBorder(gapPadding: 0),
         ),
         style: CustomTheme.appDefaultTextStyle.copyWith(
-          fontSize: 4.sp,
+          fontSize: kIsWeb ? 3.sp : 4.sp,
         ),
       ),
     );

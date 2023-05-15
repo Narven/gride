@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:gride/constants/custom_theme.dart';
 import 'package:gride/features/blueprint_code/widgets/panel.dart';
@@ -44,7 +45,7 @@ class _PropertiesExplorerState extends State<PropertiesExplorer> {
                   child: Text(
                     item.keys.first,
                     style: CustomTheme.appDefaultTextStyle.copyWith(
-                      fontSize: 4.sp,
+                      fontSize: kIsWeb ? 3.sp : 4.sp,
                     ),
                   ),
                 ),

@@ -1,7 +1,9 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:gride/app.dart';
+import 'package:gride/firebase_options.dart';
 import 'package:window_manager/window_manager.dart';
 
 Future<void> main() async {
@@ -20,6 +22,10 @@ Future<void> main() async {
       await windowManager.focus();
     });
   }
+
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 
   runApp(
     const ProviderScope(

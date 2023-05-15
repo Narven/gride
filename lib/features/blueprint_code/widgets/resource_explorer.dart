@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:gride/constants/custom_theme.dart';
 import 'package:gride/features/blueprint_code/widgets/panel.dart';
@@ -10,7 +11,7 @@ class ResourceExplorer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Panel(
-      title: 'RESOURCES',
+      title: 'Resources',
       icon: Icons.account_tree_rounded,
       actions: [
         PanelActionButton(
@@ -18,7 +19,6 @@ class ResourceExplorer extends StatelessWidget {
           onPressed: () {
             showDialog(
               context: context,
-              barrierLabel: 'xxxx',
               builder: (context) {
                 return Align(
                   alignment: Alignment.topCenter,
@@ -91,9 +91,9 @@ class ResourceExplorer extends StatelessWidget {
             itemCount: 100,
             itemBuilder: (context, index) {
               return Text(
-                '$index xxxx',
+                '$index File',
                 style: CustomTheme.appDefaultTextStyle.copyWith(
-                  fontSize: 4.sp,
+                  fontSize: kIsWeb ? 3.sp : 4.sp,
                   fontWeight: FontWeight.normal,
                 ),
               );
